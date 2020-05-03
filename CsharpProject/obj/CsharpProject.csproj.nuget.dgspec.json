@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\CsharpProject\\CsharpProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\CsharpProject\\CsharpProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\CsharpProject\\CsharpProject.csproj",
+        "projectName": "CsharpProject",
+        "projectPath": "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\CsharpProject\\CsharpProject.csproj",
+        "packagesPath": "C:\\Users\\Micael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\CsharpProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Micael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\FsharpProject\\FsharpProject.fsproj": {
+                "projectPath": "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\FsharpProject\\FsharpProject.fsproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\FsharpProject\\FsharpProject.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\FsharpProject\\FsharpProject.fsproj",
+        "projectName": "FsharpProject",
+        "projectPath": "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\FsharpProject\\FsharpProject.fsproj",
+        "packagesPath": "C:\\Users\\Micael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Micael\\source\\repos\\DemoLiveSharpForFsharp\\FsharpProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Micael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Elmish.WPF": {
+              "target": "Package",
+              "version": "[3.5.5, )"
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "LiveSharp": {
+              "target": "Package",
+              "version": "[1.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+﻿<Window x:Class="CsharpProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CsharpProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="+" Command="{Binding AddToCounter}" Width="35"/>
+        <TextBlock Text="{Binding Counter}" Width="35"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="-" Command="{Binding SubtractFromCounter}" Width="35"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="Reset" Command="{Binding Reset}" Width="35"/>
+    </StackPanel>
+</Window>

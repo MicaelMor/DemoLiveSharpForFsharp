@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LiveSharp" Version="1.5.6-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FsharpProject\FsharpProject.fsproj" />
   </ItemGroup>
 
